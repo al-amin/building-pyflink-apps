@@ -22,6 +22,7 @@ source flink_venv/bin/activate
 # install required packages
 pip install -r requirements-dev.txt
 
+pip install --no-cache-dir apache-flink
 
 ## start this for sending 100 messages
 python src/s05_data_gen.py

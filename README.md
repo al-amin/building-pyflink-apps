@@ -37,3 +37,9 @@ AMC_FLINK/Dockerfile
 
 #### STOP kafka and flink clusters and kafka-ui
 `docker-compose down`
+
+
+# docker commands for shipping files
+
+1. docker cp src/ jobmanager:/tmp/src2
+2. docker exec jobmanager /opt/flink/bin/flink run --python /tmp/src204_intro.py -d 
