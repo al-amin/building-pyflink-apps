@@ -35,3 +35,5 @@ AMC_FLINK/Dockerfile
 `python src/s05_data_gen.py`
 
 
+#### STOP kafka and flink clusters and kafka-ui
+`docker-compose down`
