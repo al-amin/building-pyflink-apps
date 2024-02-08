@@ -8,7 +8,7 @@ AMC_FLINK/Dockerfile
 # ONE TIME
 #### build docker image for Pyflink
 ## Dokcer steps:
-### sudo chmod -R g+rw "$HOME/.docker"
+`sudo chmod -R g+rw "$HOME/.docker` [optional]
 `docker login -u alaminasif`
 `docker build -t=building-pyflink-apps:1.17.1 .`
 
