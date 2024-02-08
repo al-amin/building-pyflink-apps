@@ -41,5 +41,8 @@ AMC_FLINK/Dockerfile
 
 # docker commands for shipping files
 
-1. docker cp src/ jobmanager:/tmp/src2
-2. docker exec jobmanager /opt/flink/bin/flink run --python /tmp/src2/04_intro.py -d 
+## copy file to jobmanager (XXXX.py is the file name)
+1. docker cp src/XXXX.py jobmanager:/tmp/src2/XXXX.py
+
+## run file in jobmanager
+2. docker exec jobmanager /opt/flink/bin/flink run --python /tmp/src2/XXXX.py -d 
