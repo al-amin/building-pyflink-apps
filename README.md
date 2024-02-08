@@ -25,5 +25,13 @@ AMC_FLINK/Dockerfile
 # install required packages
 `pip install -r requirements-dev.txt`
 
+# Add git ignore
+`Created a .gitignore file`
+`git add .gitignore`
+`git commit -m "Add .gitignore"`
+`git push`
+
 ## start this for sending 100 messages
 `python src/s05_data_gen.py`
+
+
